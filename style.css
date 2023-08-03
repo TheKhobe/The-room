@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#white{
+ background-image: url('/images/desktop-image-hero-1.jpg');
+ background-size:  800px;
+ background-position: center;
+ height: 500px;
+ background-repeat: no-repeat;
+}
+#white-1{
+ background-image: url('/images/desktop-image-hero-2.jpg');
+ background-size:  800px;
+ background-position: center;
+ height: 500px;
+  display: none;
+ background-repeat: no-repeat;
+}
+#white-2{
+ background-image: url('/images/desktop-image-hero-3.jpg');
+ background-size:  800px;
+ background-position: center;
+  display: none;
+ height: 500px;
+ background-repeat: no-repeat;
+}
+.link{
+ margin-top: -70%;
+}
+a:hover {
+ border-bottom: white 3px solid;
+}
+.drew{
+ margin-top: 10%;
+}
+#btext-1, #btext-2, #bpara-1, #bpara-2 {
+ display: none;
+}
